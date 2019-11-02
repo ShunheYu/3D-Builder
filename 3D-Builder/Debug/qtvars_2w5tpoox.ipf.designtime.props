@@ -1,0 +1,50 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;QT_3DANIMATION_LIB;QT_3DEXTRAS_LIB;QT_3DRENDER_LIB;QT_3DINPUT_LIB;QT_3DLOGIC_LIB;QT_3DCORE_LIB;QT_GAMEPAD_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_OPENGLEXTENSIONS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>J:/QT5.12.2/5.12.2/msvc2017/include;J:/QT5.12.2/5.12.2/msvc2017/include/Qt3DAnimation;J:/QT5.12.2/5.12.2/msvc2017/include/Qt3DExtras;J:/QT5.12.2/5.12.2/msvc2017/include/Qt3DRender;J:/QT5.12.2/5.12.2/msvc2017/include/Qt3DInput;J:/QT5.12.2/5.12.2/msvc2017/include/Qt3DLogic;J:/QT5.12.2/5.12.2/msvc2017/include/Qt3DCore;J:/QT5.12.2/5.12.2/msvc2017/include/QtGamepad;J:/QT5.12.2/5.12.2/msvc2017/include/QtOpenGL;J:/QT5.12.2/5.12.2/msvc2017/include/QtWidgets;J:/QT5.12.2/5.12.2/msvc2017/include/QtOpenGLExtensions;J:/QT5.12.2/5.12.2/msvc2017/include/QtGui;J:/QT5.12.2/5.12.2/msvc2017/include/QtANGLE;J:/QT5.12.2/5.12.2/msvc2017/include/QtNetwork;J:/QT5.12.2/5.12.2/msvc2017/include/QtCore</Qt_INCLUDEPATH_>
+<Qt_LIBPATH_>$(Qt_LIBPATH_);J:\QT5.12.2\5.12.2\msvc2017\lib</Qt_LIBPATH_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt53DAnimationd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt53DExtrasd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt53DRenderd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt53DInputd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt53DLogicd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt53DCored.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt5Gamepadd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt5OpenGLd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt5Widgetsd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt5OpenGLExtensionsd.lib</Qt_LIBS_> 
+<Qt_LIBPATH_>$(Qt_LIBPATH_);C:\opensslx86\lib</Qt_LIBPATH_> 
+<Qt_LIBPATH_>$(Qt_LIBPATH_);C:\Utils\my_sql\mysql-5.6.11-win32\lib</Qt_LIBPATH_> 
+<Qt_LIBPATH_>$(Qt_LIBPATH_);C:\Utils\postgresqlx86\pgsql\lib</Qt_LIBPATH_> 
+<Qt_LIBS_>$(Qt_LIBS_);Qt5Guid.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);Qt5Cored.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt5Guid.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt5Networkd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\Qt5Cored.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);J:\QT5.12.2\5.12.2\msvc2017\lib\qtmaind.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);shell32.lib</Qt_LIBS_> 
+<Qt_INCLUDEPATH_
+      >$(Qt_INCLUDEPATH_);Debug\moc;Debug\uic</Qt_INCLUDEPATH_>
+    <QtBkup_QtInstall
+      >QT5.12.2MSVC</QtBkup_QtInstall>
+    <QtBkup_QtModules
+      >3dcore 3danimation 3dextras 3dinput 3dlogic 3drender;core;gui;opengl;openglextensions;widgets</QtBkup_QtModules>
+    <QtBkup_QtPathBinaries
+      >bin</QtBkup_QtPathBinaries>
+    <QtBkup_QtPathLibraryExecutables
+      >bin</QtBkup_QtPathLibraryExecutables>
+    <QtBkup_QtHeaderSearchPath
+      ></QtBkup_QtHeaderSearchPath>
+    <QtBkup_QtLibrarySearchPath
+      ></QtBkup_QtLibrarySearchPath>
+    <QtBkup_QtVariables
+      >DEFINES;INCLUDEPATH;LIBS</QtBkup_QtVariables>
+    <QtBkup_QMakeCodeLines
+      ></QtBkup_QMakeCodeLines>
+  </PropertyGroup>
+  <ItemGroup>
+    <QtVar Include="Qt_DEFINES_"><Value>$(Qt_DEFINES_)</Value></QtVar>
+<QtVar Include="Qt_INCLUDEPATH_"><Value>$(Qt_INCLUDEPATH_)</Value></QtVar>
+<QtVar Include="Qt_LIBS_"><Value>$(Qt_LIBS_)</Value></QtVar>
+  </ItemGroup>
+</Project>
