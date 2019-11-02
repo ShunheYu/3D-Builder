@@ -2,3 +2,5 @@
 !*.dll
 !*.lib
 !*.exe
+!nanosuit.obj
+!teapot.obj
